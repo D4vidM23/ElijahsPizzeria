@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class = 'container'>
+    <div class = 'content'>
+        <h1>Elijah and Evans Pizzeria</h1>
+
+        <form>
+            <fieldset>
+                <div class="row">
+
+                    <div>
+                        <label for="address">Address</label>
+                        <input id="address" name="address" type="text">
+                    </div>
+
+
+                    <div>
+                        <label for="p">Phone Number (Optional)</label>
+                        <input id="p" name="p" type="text">
+                    </div>
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Type:</legend>
+                <div>
+                    <div>
+                        <input type="radio" id="sardines" name="icecream">
+                        <label for="sardines">Cheese</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="strawberry" name="icecream">
+                        <label for="strawberry">Rock</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="pineapple" name="icecream">
+                        <label for="pineapple">Peperoni</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Size</legend>
+                <div>
+                    <div>
+                        <input type="radio" id="4inch" name="size">
+                        <label for="4inch">4 inch</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="7inch" name="size">
+                        <label for="7inch">7 inch</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="12inch" name="size">
+                        <label for="12inch">12 inch</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Toppings</legend>
+                <div>
+                    <div>
+                        <input type="checkbox" id="sprinkles" name="sprinkles" value="sprinkles">
+                        <label for="sprinkles">Sardines</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="whippedcream" name="whippedcream" value="whippedcream">
+                        <label for="whippedcream">Charcoal</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="carmel" name="carmel" value="carmel">
+                        <label for="carmel">Pineapples</label>
+                    </div>
+                </div>
+            </fieldset>
+
+
+            <div>
+                <label for="container">Choose One</label>
+                <select name="container" id="container">
+                    <option value="cup">Medium Rare</option>
+                    <option value="sugar">Rare</option>
+                    <option value="waffle">Burnt</option>
+                    <option value="dippedwaffle">Ashes</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="SpecialRequests">Special Requests</label>
+                <textarea id="SpecialRequests" name="SpecialRequest" rows="4" cols="10" placeholder="allergic to cheese, vegan pizza, etc"></textarea>
+            </div>
+
+
+
+
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
